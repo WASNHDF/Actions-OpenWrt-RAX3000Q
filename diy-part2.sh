@@ -18,3 +18,5 @@ sed -i '/CONFIG_PACKAGE_luci-app-natmap/d' .config
 sed -i '/CONFIG_PACKAGE_luci-app-upnp/d' .config
 sed -i '/CONFIG_PACKAGE_luci-app-xunlei/d' .config
 sed -i '/CONFIG_PACKAGE_luci-app-ddns-go/d' .config
+sed -i '/CONFIG_PACKAGE.*v2ray/d' .config
+sed -i '/CONFIG_PACKAGE.*xray/d' .config
