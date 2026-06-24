@@ -9,3 +9,12 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
+# 删除服务菜单多余插件
+sed -i '/CONFIG_PACKAGE_luci-app-watchcat/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-wol/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-kms/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-frpc/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-natmap/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-upnp/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-xunlei/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-ddns-go/d' .config
