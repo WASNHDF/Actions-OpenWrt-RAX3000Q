@@ -18,6 +18,3 @@ sed -i '/CONFIG_PACKAGE_luci-app-natmap/d' .config
 sed -i '/CONFIG_PACKAGE_luci-app-upnp/d' .config
 sed -i '/CONFIG_PACKAGE_luci-app-xunlei/d' .config
 sed -i '/CONFIG_PACKAGE_luci-app-ddns-go/d' .config
-# 加速克隆Passwall核心
-git clone https://mirror.ghproxy.com/https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
-git clone https://mirror.ghproxy.com/https://github.com/xiaorouji/openwrt-passwall2 package/openwrt-passwall2
