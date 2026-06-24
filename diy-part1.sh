@@ -17,4 +17,4 @@ git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 # 拉取luci前端面板
 git clone https://github.com/xiaorouji/openwrt-passwall2 package/openwrt-passwall2
 # 可选：配套smartdns（原仓库也删了，需要就加上）
-# git clone https://github.com/pymumu/smartdns package/smartdns
+git clone https://github.com/pymumu/smartdns package/smartdns
