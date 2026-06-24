@@ -106,11 +106,11 @@ jobs:
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
-    - name: Fix golang version
+    - - name: Fix golang version
       run: |
-    cd openwrt
-    rm -rf feeds/packages/lang/golang
-    git clone https://github.com/kenzok8/golang -b 1.22 feeds/packages/lang/golang
+        cd openwrt
+        rm -rf feeds/packages/lang/golang
+        git clone https://github.com/kenzok8/golang -b 1.25 feeds/packages/lang/golang
 
     - name: Fix nodejs version
       run: |
