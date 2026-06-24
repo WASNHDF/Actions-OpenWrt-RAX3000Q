@@ -11,5 +11,7 @@
 #
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-
+# 在 diy-part1.sh 文件中添加以下行：
+git clone https://github.com/xiaorouji/openwrt-passwall-packages package/passwall-packages
+git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
 
